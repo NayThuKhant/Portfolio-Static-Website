@@ -1,0 +1,161 @@
+/* viewport<=340 */
+
+
+
+@media only screen and (max-width:768px){
+
+    .site-main .services-area{
+        padding: 0rem;
+        padding-top: 2rem;
+    }
+
+    .site-main .services-area .services-title{
+        padding: 0rem;
+    }
+    .site-main .services-area .services-title h2{
+        font-size: 25px;
+    }
+
+    .project-area .title-h2{
+        font-size: 25px;
+    }
+    .site-main .project-area .grid .our-project h4{
+        font-size: 14px;
+    }
+    .site-main .project-area .grid .our-project .text-secondary{
+        font-size: 12px;
+    }
+
+
+    .client-about-area .title-h2{
+        font-size: 25px;
+    }
+    .client-about-area .para{
+        font-size: 16px;
+    }
+    .client-about-area .about-client h5{
+        font-size: 18px;
+    }
+    .client-about-area .about-client .para{
+        font-size: 10px;
+    }
+
+    .site-main .subscribe-us-area .subscribe .subscribe-us-title h4{
+        font-size: 20px;
+    }
+
+    .footer-area .copyrights .para{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    .site-main .about-area .about-title .text-uppercase span{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 5px;
+    }
+    .site-main .about-area .about-title .primary-button{
+        font-size: 12px;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .site-main .brand-area .first-row .col-lg-4 .single-brand{
+        border: 1px solid var(--border-color);
+        text-align: center;
+        padding: 0.5rem;
+        margin:0.5rem 0;
+        cursor: pointer;
+    }
+    .site-main .brand-area .experience-area .years-area{
+        /* background: url(../img/ShweDagon.jpg)no-repeat 10px 20px; */
+        border: 2px dotted black;
+        padding: 0rem;
+        width: 4rem;
+        height:4rem;
+        position: relative;
+        margin-top: 1rem;
+        box-shadow: var(--box-shadow);
+        background-color: var(--border-color);
+    }
+    .site-main .brand-area .experience-area .years-area h3{
+        margin-right: 30px;
+    }
+    .site-main .brand-area .experience-area .bgpanel{
+        position: absolute;
+        left: -220px;
+        top: 0%;
+        background: #e029290a;
+        width: 200px;
+        height: 200px;
+        margin-left: 280px;
+        z-index: -1;
+        box-shadow: var(--box-shadow);
+    }
+    
+    .years-area .years{
+        font: normal bold 45px/40px var(--roboto);
+    }
+    .years-area h3>span{
+        font: normal 500 12px/15px var(--roboto);
+    }
+    .site-main .brand-area .experience-area .call-area span i{
+        font-size: 20px;
+    }
+    .site-main .brand-area .experience-area .call-area .call-now a{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .site-main .brand-area .experience-area .call-area .call-now span{
+        font-size: 10px;
+    }
+    .call-area{
+        padding-left: 4rem;
+        padding-top: 2rem;
+    }
+    .site-main .brand-area{
+        padding: 1rem 2rem;
+    }
+    .site-main .client-about-area .about-title{
+        margin-top: 0rem;
+    }
+    .site-main .project-area .button-group button{
+        background: transparent;
+        border: none;
+        font: normal 400 12px/30px var(--roboto);
+        text-transform: uppercase;
+        padding-bottom: -1rem;
+    }
+    .site-main .project-area .button-group button+button{
+        padding-left: 0rem;
+        margin-right: 0rem;
+    }
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 120%;
+        margin-left: 20px;
+        padding: 1rem;
+        background: transparent;
+        font: normal 400 16px/20px var(--roboto);
+        color: white;
+    }
+    .site-main .subscribe-us-area .subscribe form .btn-submit button{
+        margin-left: 30px;  
+    }
+}
+
+@media only screen  and (max-width:480px){
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 150%;
+        margin-left: 20px;
+        padding: 1rem;
+        background: transparent;
+        font: normal 400 12px/20px var(--roboto);
+        color: white;
+    }
+    .site-main .subscribe-us-area .subscribe form .btn-submit button{
+        margin-left: 40px; 
+        font-size: 12px; 
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,96 @@
+/* global css */
+
+.title-text{
+    font:  normal bold 30px/52px var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Buttons */
+
+.button{
+    padding: 0.5rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    border: 2px solid transparent;
+    position: relative;
+    border-radius: 5px;
+}
+
+.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.primary-button:hover{
+    color: black;
+    background-clip: padding-box;
+    background: whitesmoke;
+}
+
+.primary-button::after{
+    position: absolute;
+    top: 2px;left: 2px;bottom: 2px;right: 2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    border: 2px solid #4458dc;
+    transition: background .6s ease;
+}
+
+.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+.font-roboto{
+    color: var(--text-color);
+    font: normal 500 14px/25px var(--roboto);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h2{
+    font: normal bold 30px/40px var(--roboto);
+
+}
+
+/* fix nav bar */
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1rem;
+    left: 0;
+    right: 0;
+    background:whitesmoke;
+    box-shadow: var(--box-shadow);
+    z-index: 9999;
+    transition: background 1s ease;
+    filter: brightness(1.1);
+}
+.navbar_fixed::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s ease-in-out;
+}
+
